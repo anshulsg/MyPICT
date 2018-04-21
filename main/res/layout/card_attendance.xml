@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_attendance"
+    app:cardPreventCornerOverlap="true"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="8dp"
+    app:cardBackgroundColor="@color/colorCardBackground"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/card_attendance_layout_linear">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/attendance_card_subject"
+                style="@style/TitleAux"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                style="@style/Title"
+                android:id="@+id/attendance_card_value"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attended 3 of 4"
+            android:layout_below="@+id/card_attendance_layout_linear"
+            style="@style/Subtitle"
+            android:id="@+id/attendance_card_description"/>
+        <View
+            android:id="@+id/card_divider"
+            style="@style/Divider"
+            android:layout_below="@+id/attendance_card_description"/>
+        <Button
+            android:id="@+id/attendance_card_attend_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/card_divider"
+            style="@style/ActionButtons"
+            android:text="Add One" />
+        <Button
+            android:id="@+id/attendance_card_miss_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/attendance_card_attend_one"
+            android:layout_alignTop="@+id/attendance_card_attend_one"
+            android:text="Miss One"
+            style="@style/ActionButtons"
+            />
+
+        <Button
+            android:id="@+id/attendance_card_revert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/attendance_card_miss_one"
+            android:layout_alignTop="@+id/attendance_card_attend_one"
+            android:text="Revert"
+            style="@style/ActionButtons"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

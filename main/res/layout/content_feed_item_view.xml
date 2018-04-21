@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.anshulsg.mypict.ui.activities.FeedItemView"
+    tools:showIn="@layout/activity_feed_item_view">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TitleAux"
+            android:text="Sample Description"
+            android:id="@+id/feed_item_description"/>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/feed_item_links"
+            android:layout_below="@id/feed_item_description"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/feed_item_source"
+            android:layout_below="@id/feed_item_links"
+            style="@style/TitleAux"
+            android:paddingBottom="24dp"
+            android:background="@color/indigo50"/>
+    </RelativeLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

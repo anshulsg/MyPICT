@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00ffffff</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorCardBackground">#fafafa</color>
+
+    <color name="indigo50">#E8EAF6</color>
+    <color name="indigo100">#C5CAC9</color>
+    <color name="indigo200">#9FA8DA</color>
+    <color name="indigo300">#7986CB</color>
+    <color name="indigo400">#5C6BC0</color>
+    <color name="indigo500">#3F51B5</color>
+    <color name="indigo900">#1A237E</color>
+    
+    <color name="bgPrimary">#263238</color>
+    <color name="bgPrimaryD">#000A12</color>
+    <color name="bgPrimaryL">#4F5B62</color>
+
+    <color name="cyanSecondary">#00BFA5</color>
+    <color name="cyanSecondaryL">#5DF2D6</color>
+    <color name="cyanSecondaryD">#008E76</color>
+
+    <color name="colorPICT">#00bfa5</color>
+    <color name="colorSPPU">#f4511e</color>
+</resources>

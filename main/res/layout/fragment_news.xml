@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anshulsg.mypict.ui.fragments.NewsFragment"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/news_blank_text"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textAlignment="center"
+        android:text="@string/blank_news_fragment" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/news_recycler_view"/>
+
+</FrameLayout>
